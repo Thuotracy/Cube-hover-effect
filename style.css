@@ -22,6 +22,16 @@ body{
     z-index: 2;
 }
 
+.container .cube:nth-child(2){
+    z-index: 1;
+    translate: -60px -60px;
+}
+
+.container .cube:nth-child(3){
+    z-index: 1;
+    translate: 60px 60px;
+}
+
 .container .cube div{
     position: absolute;
     display: flex;
