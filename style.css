@@ -65,4 +65,10 @@ body{
     background: white;
     transform-origin: right;
     transform: skewY(45deg);
+    transition: 1.5s;
+}
+
+.container .cube div span:hover::before{
+    transition: 0;
+    background: #f75d64;
 }
