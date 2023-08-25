@@ -1,7 +1,7 @@
-# LINE ANIMATION
+# CUBE HOVER ANIMATION
 
 ## Description
-This is a running line animation
+This is a cube hover animation
 
 ## live link
 https://thuotracy.github.io/line-animation-effect/
