@@ -11,3 +11,17 @@ body{
     min-height: 100vh;
     background: black;
 }
+
+.container{
+    position: relative;
+}
+
+.container .cube{
+    z-index: 2;
+}
+
+.container .cube div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
