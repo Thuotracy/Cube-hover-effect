@@ -4,7 +4,7 @@
 This is a cube hover animation
 
 ## live link
-https://thuotracy.github.io/line-animation-effect/
+https://thuotracy.github.io/Cube-hover-effect/
 
 ##  Languages 
 * CSS
