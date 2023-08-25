@@ -72,3 +72,21 @@ body{
     transition: 0;
     background: #f75d64;
 }
+
+.container .cube div span::after{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1.5s;
+}
+
+.container .cube div span:hover::after{
+    transition: 0;
+    background: #f75d64;
+}
