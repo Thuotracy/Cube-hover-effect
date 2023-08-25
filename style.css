@@ -26,6 +26,8 @@ body{
     position: absolute;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
 }
 
 .container .cube div span{
