@@ -28,7 +28,7 @@ body{
 }
 
 .container .cube:nth-child(3){
-    z-index: 1;
+    z-index: 3;
     translate: 60px 60px;
 }
 
@@ -45,6 +45,24 @@ body{
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: white;
+    background: wheat;
     z-index: calc(1 * var(--i));
+    transition: 1.5s;
+}
+
+.container .cube div span:hover{
+    transition: 0s;
+    background: #ef4149;
+    filter: drop-shadow(0 0 30px #ef4149)
+}
+
+.container .cube div span::before{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: white;
+    transform-origin: right;
+    transform: skewY(45deg);
 }
