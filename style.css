@@ -16,6 +16,17 @@ body{
     position: relative;
     top: -80px;
     transform: skewY(-20deg);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+
+    100%{
+        filter: hue-rotate(360deg);
+    }
 }
 
 .container .cube{
@@ -45,7 +56,7 @@ body{
     display: inline-block;
     width: 50px;
     height: 50px;
-    background: wheat;
+    background: rgb(184, 184, 184);
     z-index: calc(1 * var(--i));
     transition: 1.5s;
 }
@@ -62,7 +73,7 @@ body{
     left: -40px;
     width: 40px;
     height: 100%;
-    background: white;
+    background: rgb(184, 184, 184);
     transform-origin: right;
     transform: skewY(45deg);
     transition: 1.5s;
@@ -88,5 +99,5 @@ body{
 
 .container .cube div span:hover::after{
     transition: 0;
-    background: #f75d64;
+    background: #f14e55;
 }
